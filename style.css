@@ -1,7 +1,7 @@
 @font-face {
 	font-family: 'Conv_Amperzand';
-	src: url('../fonts/Amperzand.eot');
-	src: local('?'), url('../fonts/Amperzand.woff') format('woff'), url('../fonts/Amperzand.ttf') format('truetype'), url('../fonts/Amperzand.svg') format('svg');
+	src: url('fonts/Amperzand.eot');
+	src: local('?'), url('Amperzand.woff') format('woff'), url('Amperzand.ttf') format('truetype'), url('Amperzand.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -43,7 +43,7 @@ color: #DF01D7;
 }
 
 #page #header ul.section li a.email{
-	background: url("../images/icon.gif"); 
+	background: url("icon.gif"); 
 	background-position: 0 -508px;
 	display: block;
 	width: 31px;
@@ -51,13 +51,13 @@ color: #DF01D7;
 }
 
 #page #header ul.section li a.email:hover{
-	background: url("../images/icon.gif"); 
+	background: url("icon.gif"); 
 	background-position: 0 -437px;
 	background-repeat: no-repeat; 
 }
 
 #page #header ul.section li a.home{
-	background: url("../images/icon.gif"); 
+	background: url("icon.gif"); 
 	background-position: 0 -278px; width: 23px; height: 21px;
 	display: block;
 	width: 30px;
@@ -65,7 +65,7 @@ color: #DF01D7;
 }
 
 #page #header ul.section li a.home:hover{
-	background: url("../images/icon.gif"); 
+	background: url("icon.gif"); 
 	background-position: 0 -207px; 
 }
 
@@ -101,7 +101,7 @@ font-size:18px;
 }
 
 #page #body{
-background: url("../images/bg-page.png") center top no-repeat;
+background: url("bg-page.png") center top no-repeat;
 height: auto;
 overflow: hidden;
 border-radius: 5px 5px 0px 0px;
