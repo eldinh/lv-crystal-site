@@ -1,0 +1,168 @@
+@font-face {
+	font-family: 'Conv_Amperzand';
+	src: url('../fonts/Amperzand.eot');
+	src: local('?'), url('../fonts/Amperzand.woff') format('woff'), url('../fonts/Amperzand.ttf') format('truetype'), url('../fonts/Amperzand.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body { 
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Verdana, Helvetica, sans-serif; 
+	font-size: 14px; 
+	background-color: #452c45;
+	/*background: url("../images/bg-dot.jpg");*/
+}
+
+#page {
+	width: 960px;
+	margin: 0 auto;
+color: #DF01D7;
+}
+
+#page #header {
+	height: 70px;
+	overflow: hidden;
+}
+
+#page #header ul.section{
+	height: 0 auto;
+	overflow: hidden;
+	list-style-type: none;
+	width: 100px;
+}
+
+#page #header ul.section li{
+	float: left; 
+}
+
+#page #header ul.section li a{
+	text-decoration: none;
+	margin: 10px 5px 0 0;
+}
+
+#page #header ul.section li a.email{
+	background: url("../images/icon.gif"); 
+	background-position: 0 -508px;
+	display: block;
+	width: 31px;
+	height: 21px;
+}
+
+#page #header ul.section li a.email:hover{
+	background: url("../images/icon.gif"); 
+	background-position: 0 -437px;
+	background-repeat: no-repeat; 
+}
+
+#page #header ul.section li a.home{
+	background: url("../images/icon.gif"); 
+	background-position: 0 -278px; width: 23px; height: 21px;
+	display: block;
+	width: 30px;
+	height: 21px;
+}
+
+#page #header ul.section li a.home:hover{
+	background: url("../images/icon.gif"); 
+	background-position: 0 -207px; 
+}
+
+#page #header ul.navigation{
+overflow:hidden;
+height:0 auto;
+float:right;
+list-style-type:none;
+margin-top:-60px;
+}
+
+#page #header ul.navigation li{
+float: left;
+padding: 0 10px;
+height: 80px;
+line-height: 80px;
+}
+
+#page #header ul.navigation li a{
+text-decoration:none;
+color:#c2a8c3;
+font-size:18px;
+}
+
+#page #header ul.navigation li a:hover{
+	text-decoration:underline;
+	font-weight: bold;
+}
+
+#page #header ul.navigation li a.active{
+	text-decoration:underline;
+	color:#DF01D7;
+}
+
+#page #body{
+background: url("../images/bg-page.png") center top no-repeat;
+height: auto;
+overflow: hidden;
+border-radius: 5px 5px 0px 0px;
+}
+
+#page #body a#logo {
+text-decoration:none;
+font-family: "Conv_Amperzand", Arial;
+color: #DF01D7;
+}
+
+#page #body .store {
+font-weight: bold;
+font-size: 4.5em;
+text-shadow: 1px 2px 2px #000FAA;
+line-height: 1.2em;
+padding-left: 0.5em;
+padding-top: 0.5em;
+}
+
+#page #body .sub-store {
+font-size: 1.6em;
+margin-top: 10px;
+line-height: 1.15em;
+padding-left: 1.5em;
+padding-bottom: 0.5em;
+}
+
+#page #body #content {
+background-color: #FFF;
+padding: 20px 10px 0 10px;
+height: 500px;
+border-top: thin solid #afb3b6;
+opacity: 0.8;
+}
+
+#page #body #content h3 {
+height: 79px;
+margin: 0 auto;
+text-align: center;
+font-family: "Conv_Amperzand", Arial;
+font-size: 3.5em;
+}
+
+#page #footer {
+border-radius: 0px 0px 5px 5px;
+height: 215px;
+background-color: #FFFFFF;
+border-top: thin solid #afb3b6;
+padding: 5px;
+}
+
+#page #footer #column-1 {
+	width: 50%;
+	float: left;
+	clear: both;
+}
+
+#page #footer #column-2 {
+	float: right;
+}
+
+#page #footnote { line-height: 50px; text-align: center; color: #796075; }
+
