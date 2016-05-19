@@ -1,7 +1,7 @@
 @font-face {
 	font-family: 'Conv_Amperzand';
-	src: url('fonts/Amperzand.eot');
-	src: local('?'), url('Amperzand.woff') format('woff'), url('Amperzand.ttf') format('truetype'), url('Amperzand.svg') format('svg');
+	src: url('https://raw.githubusercontent.com/eldinh/lv-crystal-site/master/Amperzand.eot');
+	src: local('?'), url('https://raw.githubusercontent.com/eldinh/lv-crystal-site/master/Amperzand.woff') format('woff'), url('https://raw.githubusercontent.com/eldinh/lv-crystal-site/master/Amperzand.ttf') format('truetype'), url('https://raw.githubusercontent.com/eldinh/lv-crystal-site/master/Amperzand.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -51,7 +51,7 @@ color: #DF01D7;
 }
 
 #page #header ul.section li a.email:hover{
-	background: url("icon.gif"); 
+	background: url("https://raw.githubusercontent.com/eldinh/lv-crystal-site/master/icon.gif"); 
 	background-position: 0 -437px;
 	background-repeat: no-repeat; 
 }
@@ -65,7 +65,7 @@ color: #DF01D7;
 }
 
 #page #header ul.section li a.home:hover{
-	background: url("icon.gif"); 
+	background: url("https://raw.githubusercontent.com/eldinh/lv-crystal-site/master/icon.gif"); 
 	background-position: 0 -207px; 
 }
 
@@ -101,7 +101,7 @@ font-size:18px;
 }
 
 #page #body{
-background: url("bg-page.png") center top no-repeat;
+background: url("https://raw.githubusercontent.com/eldinh/lv-crystal-site/master/bg-page.png") center top no-repeat;
 height: auto;
 overflow: hidden;
 border-radius: 5px 5px 0px 0px;
